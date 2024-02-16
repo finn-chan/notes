@@ -1,0 +1,13 @@
+[Unit]
+Description=Webhook Service
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/usr/local/bin/webhook
+ExecStart=/usr/bin/env uvicorn webhook:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
