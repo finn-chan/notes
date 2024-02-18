@@ -22,7 +22,7 @@ The script uses [FastAPI](https://github.com/tiangolo/fastapi) and [python-teleg
 	# 開啓日志
 	LOG_ENABLED = True
 
-	# 初始化 FastAPI 應用和 Telegram Bot
+	# 初始化 FastAPI 和 Telegram Bot
 	app = FastAPI(docs_url=None, redoc_url=None)
 	telegram_bot_token = 'YOUR_TELEGRAM_BOT_TOKEN'
 	telegram_chat_id = 'YOUR_CHAT_ID'
@@ -365,6 +365,6 @@ If you need to change the domain name:
 
 4. Restart the Nginx service:
 
-	sudo nginx -s reload
+	   sudo nginx -s reload
 
 Link to this article: [Webhook-note](https://github.com/finn-chan/notes/blob/main/Webhook/Webhook-note.md)
