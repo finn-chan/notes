@@ -8,7 +8,7 @@ from uvicorn import run
 # 開啓日志
 LOG_ENABLED = True
 
-# 初始化 FastAPI 應用和 Telegram Bot
+# 初始化 FastAPI 和 Telegram Bot
 app = FastAPI(docs_url=None, redoc_url=None)
 telegram_bot_token = 'YOUR_TELEGRAM_BOT_TOKEN'
 telegram_chat_id = 'YOUR_CHAT_ID'
