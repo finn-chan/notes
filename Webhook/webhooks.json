@@ -1,4 +1,25 @@
 {
-    "Webhook name 1": "Webhook key 1",
-    "Webhook name 2": "Webhook key 2"
+    "webhooks": [
+        {
+            "name": "Webhook name 1",
+            "mappings": [
+                {
+                    "key": "Webhook key 1",
+                    "telegram": {
+                        "bot_name": "bot name 1",
+                        "bot_token": "bot token 1",
+                        "chat_id": "chat id 1"
+                    }
+                },
+                {
+                    "key": "Webhook key 2",
+                    "telegram": {
+                        "bot_name": "bot name 2",
+                        "bot_token": "bot token 2",
+                        "chat_id": "chat id 2"
+                    }
+                }
+            ]
+        }
+    ]
 }
